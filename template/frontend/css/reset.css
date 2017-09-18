@@ -1,0 +1,68 @@
+﻿@font-face {
+font-family: 'OpenSans-Bold';
+src: url('../fonts/OpenSans-Bold.eot');
+	src: local('☺'), 
+	url('../fonts/OpenSans-Bold.woff') format('woff'), 
+	url('../fonts/OpenSans-Bold.ttf') format('truetype'), 
+	url('../fonts/OpenSans-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+font-family: 'Oswald-Regular';
+src: url('../fonts/Oswald Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+font-family: 'OpenSans-Light';
+src: url('../fonts/OpenSans-Light.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+font-family: 'OpenSans-Italic';
+src: url('../fonts/OpenSans-Italic.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+font-family: 'OpenSans-Light';
+src: url('../fonts/OpenSans-Light.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+*{
+	margin:0 auto;
+	padding:0px;}
+body{
+	font-size: 13px;
+	color:#333;
+	max-width: 1600px;
+	margin:0px auto;
+}
+.clear{
+	clear:both;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style:none}
+a:hover{
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h5,p{
+	margin:0;
+	padding:0;
+}
+section,header,footer,aside,div,ul,li,figure,article{
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+ul,figure{
+	margin:0px;
+	padding:0px
+}
+	

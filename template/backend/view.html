@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Admin Control Cpanel</title>
+<link href="css/normalize.css" rel="stylesheet" type="text/css" />
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="cms-wrapper">
+	<div id="cms-header">
+		<p class="title">Hệ thống quản trị dữ liệu</p>
+	</div><!-- #cms-header -->
+	
+	<div id="cms-navigation">
+		<div class="left">
+			<ul class="main">
+				<li class="main">
+					<a href="#" class="main">Hệ thống</a>
+					<ul class="item">
+						<li class="item"><a href="#" class="item">Thông tin tài khoản</a></li>
+						<li class="item"><a href="#" class="item">Cấu hình hệ thống</a></li>
+						<li class="item"><a href="#" class="item">Đăng xuất</a></li>
+					</ul>
+				</li>
+				<li class="main">
+					<a href="#" class="main main-select">Khách hàng</a>
+					<ul class="item">
+						<li class="item"><a href="#" class="item">Quản lý khách hàng</a></li>
+						<li class="item"><a href="#" class="item">Thêm khách hàng mới</a></li>
+					</ul>
+				</li>
+				<li class="main"><a href="#" class="main">Domain</a></li>
+				<li class="main"><a href="#" class="main">Hosting</a></li>
+				<li class="main"><a href="#" class="main">Seo</a></li>
+			</ul>
+		</div><!-- .left -->
+		<div class="right">
+			<ul class="main">
+				<li class="main main-text">Chào <span>Lê Thanh Hải</span></li>
+				<li class="main"><a href="#" class="main">Thông tin</a></li>
+				<li class="main"><a href="#" class="main">Đăng xuất</a></li>
+			</ul>
+		</div><!-- .right -->
+		<div class="cms-clear"></div>
+	</div><!-- #cms-navigation -->
+
+	<div id="cms-tab">
+		<p class="title">Hệ thống quản trị dữ liệu</p>
+		<ul class="main">
+			<li class="main"><a href="#" class="main">Danh mục bài viết</a></li>
+			<li class="main"><a href="#" class="main select">Quản lý bài viết</a></li>
+		</ul>
+		<div class="cms-clear"></div>
+	</div><!-- #cms-tab -->
+
+	<div id="cms-container">
+		<div id="cms-filter">
+			<div class="left">
+				<form method="frm-filter">
+					<select class="select">
+						<option value="1">Hệ thống bài viết</option>
+						<option value="2">│——— Freely Choice</option>
+						<option value="5">│——— │——— News</option>
+						<option value="6">│——— │——— Freely People</option>
+						<option value="7">│——— │——— Freely Hứng</option>
+						<option value="8">│——— │——— Freely Corner</option>
+						<option value="3">│——— Freely World</option>
+						<option value="9">│——— │——— Văn hóa</option>
+						<option value="10">│——— │——— Lịch sử</option>
+						<option value="11">│——— │——— Chuyện lạ</option>
+						<option value="12">│——— │——— Phát minh mới</option>
+					</select>
+					<input type="text" name="keyword" class="keyword" />
+					<input type="submit" name="search" class="search" value="Tìm kiếm" />
+				</form>
+			</div><!-- .left -->
+			<div class="right">
+				<input type="submit" name="" class="button" value="Thêm mới" />
+				<input type="submit" name="" class="button" value="Xóa nhiều" />
+				<input type="submit" name="" class="button" value="Hiển thị" />
+				<input type="submit" name="" class="button" value="Sắp xếp" />
+			</div><!-- .right -->
+			<div class="cms-clear"></div>
+		</div><!-- #cms-filter -->
+		<div id="cms-table">
+			<table cellspacing="0" cellpadding="0" class="data">
+				<tr>
+					<th>#</th>
+					<th><input type="checkbox" id="check-all" /></th>
+					<th class="left"><a href="#">Tên bài viết <span>&uarr;</span></a></th>
+					<th class="left">Thuộc danh mục</th>
+					<th><a href="#">Ngày tạo <span>&darr;</span></a></th>
+					<th>Ngày sửa</th>
+					<th>Người tạo</th>
+					<th>Người sửa</th>
+					<th>Lượt xem</th>
+					<th>Vị trí</th>
+					<th>Hiển thị</th>
+					<th>Thao tác</th>
+					<th>Mã</th>
+				</tr>
+				<tr>
+					<td class="center first">3</td>
+					<td class="center"><input type="checkbox" name="checkbox[]" value="1290" class="checkbox" /></td>
+					<td class="left title"><a href="#">Nhà nhiếp ảnh, anh là ai, anh đang làm gì?</a></td>
+					<td class="left"><a href="#">Freely Hứng</a></td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center"><a href="#">kunshine8x</a></td>
+					<td class="center"><a href="#">trungkv</a></td>
+					<td class="center">168</td>
+					<td class="center order"><input type="text" name="order[1290]" value="0" /></td>
+					<td class="center"><a href="#"><img src="images/check.png" /></a></td>
+					<td class="center"><a href="#"><img src="images/delete.png" /></a> <a href="#"><img src="images/edit.png" /></a></td>
+					<td class="center last">654</td>
+				</tr>
+				<tr>
+					<td class="center first">3</td>
+					<td class="center"><input type="checkbox" name="checkbox[]" value="1290" class="checkbox" /></td>
+					<td class="left title"><a href="#">Truyện cổ tích và những bài học yêu cho chàng</a></td>
+					<td class="left"><a href="#">Freely Hứng</a></td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center"><a href="#">kunshine8x</a></td>
+					<td class="center"><a href="#">trungkv</a></td>
+					<td class="center">168</td>
+					<td class="center order"><input type="text" name="order[1290]" value="0" /></td>
+					<td class="center"><a href="#"><img src="images/check.png" /></a></td>
+					<td class="center"><a href="#"><img src="images/delete.png" /></a> <a href="#"><img src="images/edit.png" /></a></td>
+					<td class="center last">654</td>
+				</tr>
+				<tr>
+					<td class="center first">3</td>
+					<td class="center"><input type="checkbox" name="checkbox[]" value="1290" class="checkbox" /></td>
+					<td class="left title"><a href="#">Sự khác biệt giữa một cô gái và một người phụ nữ</a></td>
+					<td class="left"><a href="#">Freely Hứng</a></td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center"><a href="#">kunshine8x</a></td>
+					<td class="center"><a href="#">trungkv</a></td>
+					<td class="center">168</td>
+					<td class="center order"><input type="text" name="order[1290]" value="0" /></td>
+					<td class="center"><a href="#"><img src="images/check.png" /></a></td>
+					<td class="center"><a href="#"><img src="images/delete.png" /></a> <a href="#"><img src="images/edit.png" /></a></td>
+					<td class="center last">654</td>
+				</tr>
+				<tr>
+					<td class="center first">3</td>
+					<td class="center"><input type="checkbox" name="checkbox[]" value="1290" class="checkbox" /></td>
+					<td class="left title"><a href="#">Những lý do khiến con người nằm mơ khi đi ngủ</a></td>
+					<td class="left"><a href="#">Freely Hứng</a></td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center"><a href="#">kunshine8x</a></td>
+					<td class="center"><a href="#">trungkv</a></td>
+					<td class="center">168</td>
+					<td class="center order"><input type="text" name="order[1290]" value="0" /></td>
+					<td class="center"><a href="#"><img src="images/check.png" /></a></td>
+					<td class="center"><a href="#"><img src="images/delete.png" /></a> <a href="#"><img src="images/edit.png" /></a></td>
+					<td class="center last">654</td>
+				</tr>
+				<tr>
+					<td class="center first">3</td>
+					<td class="center"><input type="checkbox" name="checkbox[]" value="1290" class="checkbox" /></td>
+					<td class="left title"><a href="#">Những cách kiếm tiền mới lạ ở Hà Nội</a></td>
+					<td class="left"><a href="#">Freely Hứng</a></td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center"><a href="#">kunshine8x</a></td>
+					<td class="center"><a href="#">trungkv</a></td>
+					<td class="center">168</td>
+					<td class="center order"><input type="text" name="order[1290]" value="0" /></td>
+					<td class="center"><a href="#"><img src="images/check.png" /></a></td>
+					<td class="center"><a href="#"><img src="images/delete.png" /></a> <a href="#"><img src="images/edit.png" /></a></td>
+					<td class="center last">654</td>
+				</tr>
+				<tr>
+					<td class="center first">3</td>
+					<td class="center"><input type="checkbox" name="checkbox[]" value="1290" class="checkbox" /></td>
+					<td class="left title"><a href="#">Kẻ đáng xấu hổ nhất thì đã không biết xấu hổ</a></td>
+					<td class="left"><a href="#">Freely Hứng</a></td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center"><a href="#">kunshine8x</a></td>
+					<td class="center"><a href="#">trungkv</a></td>
+					<td class="center">168</td>
+					<td class="center order"><input type="text" name="order[1290]" value="0" /></td>
+					<td class="center"><a href="#"><img src="images/check.png" /></a></td>
+					<td class="center"><a href="#"><img src="images/delete.png" /></a> <a href="#"><img src="images/edit.png" /></a></td>
+					<td class="center last">654</td>
+				</tr>
+				<tr>
+					<td class="center first">3</td>
+					<td class="center"><input type="checkbox" name="checkbox[]" value="1290" class="checkbox" /></td>
+					<td class="left title"><a href="#">Bài viết gây sửng sốt trên facebook của 1 thanh niên Việt Nam 25 tuổi</a></td>
+					<td class="left"><a href="#">Freely Hứng</a></td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center"><a href="#">kunshine8x</a></td>
+					<td class="center"><a href="#">trungkv</a></td>
+					<td class="center">168</td>
+					<td class="center order"><input type="text" name="order[1290]" value="0" /></td>
+					<td class="center"><a href="#"><img src="images/check.png" /></a></td>
+					<td class="center"><a href="#"><img src="images/delete.png" /></a> <a href="#"><img src="images/edit.png" /></a></td>
+					<td class="center last">654</td>
+				</tr>
+				<tr>
+					<td class="center first">3</td>
+					<td class="center"><input type="checkbox" name="checkbox[]" value="1290" class="checkbox" /></td>
+					<td class="left title"><a href="#">Sự khác biệt giữa một cô gái và một người phụ nữ</a></td>
+					<td class="left"><a href="#">Freely Hứng</a></td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center"><a href="#">kunshine8x</a></td>
+					<td class="center"><a href="#">trungkv</a></td>
+					<td class="center">168</td>
+					<td class="center order"><input type="text" name="order[1290]" value="0" /></td>
+					<td class="center"><a href="#"><img src="images/check.png" /></a></td>
+					<td class="center"><a href="#"><img src="images/delete.png" /></a> <a href="#"><img src="images/edit.png" /></a></td>
+					<td class="center last">654</td>
+				</tr>
+				<tr>
+					<td class="center first">3</td>
+					<td class="center"><input type="checkbox" name="checkbox[]" value="1290" class="checkbox" /></td>
+					<td class="left title"><a href="#">Những lý do khiến con người nằm mơ khi đi ngủ</a></td>
+					<td class="left"><a href="#">Freely Hứng</a></td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center"><a href="#">kunshine8x</a></td>
+					<td class="center"><a href="#">trungkv</a></td>
+					<td class="center">168</td>
+					<td class="center order"><input type="text" name="order[1290]" value="0" /></td>
+					<td class="center"><a href="#"><img src="images/check.png" /></a></td>
+					<td class="center"><a href="#"><img src="images/delete.png" /></a> <a href="#"><img src="images/edit.png" /></a></td>
+					<td class="center last">654</td>
+				</tr>
+				<tr class="last">
+					<td class="center first">3</td>
+					<td class="center"><input type="checkbox" name="checkbox[]" value="1290" class="checkbox" /></td>
+					<td class="left title"><a href="#">Sự khác biệt giữa một cô gái và một người phụ nữ</a></td>
+					<td class="left"><a href="#">Freely Hứng</a></td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center">08:12 AM - 12/12/2013</td>
+					<td class="center"><a href="#">kunshine8x</a></td>
+					<td class="center"><a href="#">trungkv</a></td>
+					<td class="center">168</td>
+					<td class="center order"><input type="text" name="order[1290]" value="0" /></td>
+					<td class="center"><a href="#"><img src="images/check.png" /></a></td>
+					<td class="center"><a href="#"><img src="images/delete.png" /></a> <a href="#"><img src="images/edit.png" /></a></td>
+					<td class="center last">654</td>
+				</tr>
+			</table>
+		</div><!-- #cms-table -->
+		<div id="cms-pagination">
+			<ul>
+				<li><a href="#">Trang đầu</a></li>
+				<li><a href="#">Lùi lại</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">6</a></li>
+				<li><a href="#" class="current">7</a></li>
+				<li><a href="#">8</a></li>
+				<li><a href="#">9</a></li>
+				<li><a href="#">Tiếp tục</a></li>
+				<li><a href="#">Trang cuối</a></li>
+			</ul>
+			<div class="cms-clear"></div>
+		</div><!-- #cms-pagination -->
+		<div class="cms-clear"></div>
+	</div><!-- #cms-container -->
+
+	<div id="cms-copyright">
+		<p>Copyright 2014 - <a href="#">SIMPLE ITQ CMS</a></p>
+		<div class="cms-clear"></div>
+	</div><!-- #cms-copyright -->
+
+	<div class="cms-clear"></div>
+</div><!-- #cms-wrapper -->
+</body>
+</html>

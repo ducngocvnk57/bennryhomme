@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.benryhomme.com$ [NC]
+RewriteRule ^(.*)$ http://benryhomme.com/$1 [R=301,L]
+RewriteCond $1 !^(index\.php|upload|template|plugin|plugins|images|robots\.txt|googled7fc7668b8a96daa\.html|ror\.xml|sitemap\.xml|urllist\.txt|sitemap\.html|favicon\.png|favicon\.ico|crawler|vetinh)
+
+RewriteRule ^(.*)$ index.php?/$1 [L]

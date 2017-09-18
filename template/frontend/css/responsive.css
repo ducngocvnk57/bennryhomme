@@ -1,0 +1,236 @@
+@media screen and (max-width:1020px){
+	.wrapper{
+		width: 96%;
+		margin:0px auto;
+	}
+	.content-slide,
+	.ben-content,
+	.ben-footer,
+	.right-content,
+	.ben-slider{
+		width:100% !important;
+	}
+	.ben-header{
+		float:left;
+		width:100% !important;
+		padding:0px !important;
+		height:auto !important;
+	}
+	.top-header {
+		border-bottom:1px solid #333;
+	}
+	.video {
+		width:58% !important;
+		float:left !important;
+		margin-right:2% !important;
+	}
+	.ben-content .box-left {
+		width: 32%;
+		margin-right: 2% !important;
+	}
+	.ben-content .box-left:nth-child(3n) {
+		margin-right:0;
+	}
+	.top-ben-content .top-pro {
+		width:40%;
+	}
+	.logo-f {
+		width: 135px;
+		padding-left: 10px;
+		float: left;
+	}
+	.logo-f img{
+		width: 100%;
+	}
+	.banner-logo {
+		display:block;
+		width:100%;
+		float:left;
+		position:relative;
+		height: 45px;
+		border-bottom: 1px solid #333;
+	}
+	.navbar-toggle,.hidden-product {
+		display: block;
+	}
+	.navigation-show {
+		left: 0px !important;
+	}
+	.navigation {
+		position: absolute;
+		top: 0px;
+		left: -1000px;
+		width: 268px;
+	}
+	.navigation-show{
+		left:0px;
+	}
+	.navigation ul.main {
+		position:relative;
+		z-index:999;
+		width:100%;
+	}
+	.menu ul.main li.center {
+		margin-right: 0px;
+	}
+	.logo {
+		display:none;
+	}
+	.menu {
+		background:none;
+	}
+	.navigation ul.main li.main{
+		float:none;
+		position:static;
+		margin-right: 0px;
+	}
+	.navigation ul.main li.main a.main{
+		background:#555;
+		width:244px;
+		height:40px;
+		line-height:40px;
+		border-bottom:1px solid #484848;
+		text-transform: uppercase;
+		font-weight:bold;
+		font-size:13px;
+		color:#fff;
+		padding-left: 10px;
+	}
+	.navigation ul.main li ul.item {
+		top:0px;
+	}
+	.navigation ul.main li ul.item li.item {
+		padding-left:0px;
+	}
+	.navigation ul.main li ul.item li.item a{
+		color:#333;
+	}
+	.navigation ul.main li.main:hover a.main{
+		background:#666;
+	}
+	.navigation ul.main li ul.item {
+		padding: 0px 0px 0px 0px;
+		padding-top: 0px;
+		width: 243px;
+		position:relative;
+	}
+	.navigation ul.main li.main:hover  ul.item{
+		width: 243px;
+	}
+	.navigation ul.item{
+		position:static;
+		width: 282px;
+		opacity:1;
+		visibility:visible;
+		overflow:hidden;
+		padding:0px;
+		display:none;
+	}
+	.navigation ul.item li.item {
+		width: 243px !important;
+		background: #fff !important;
+	}
+	.navigation ul.item li.item a.item{
+		padding:0px 12px;
+		margin:0px;
+		width:258px;
+		font-size:13px;
+	}
+	.navigation ul.item li.item:nth-child(2) a.item{
+		border-top:1px solid #515151;
+	}
+	.navigation ul.main li.main a.main .main-arrow{
+		margin:18px 5px 0px 0px;
+		float:right;
+	}
+	.thuonghieu .imgthuonghieu {
+		width: 24%;
+		margin-right:1%;
+		height:auto;
+	}
+	.thuonghieu .imgthuonghieu img {
+		width: 100%;
+		height:auto;
+	}
+	.left-content {
+		display:none;
+	}
+	.right-content .cate-ben-item:nth-child(3n + 1) {
+		margin-right: 10px;
+	}
+	.right-content .cate-ben-item:nth-child(4n + 1) {
+		margin-right: 0px;
+	}
+}
+@media screen and (max-width:768px){
+	.right-content .cate-ben-item:nth-child(2n + 1) {
+		margin-right: 10px;
+	}
+	.wrapper-breadcrumb {
+		width: 100%;
+	}
+	.right-content .cate-ben-item:nth-child(3n + 1) {
+		margin-right: 0px;
+	}
+	.right-content .cate-ben-item {
+		width: 32%;
+	}
+	.right-content .cate-ben-item .ben-img-item{
+		width: 98%;
+	}
+	.right-content .cate-ben-item .ben-img-item img{
+		width: 100%;
+	}
+}
+@media screen and (max-width:620px){
+	.ben-content .box-left {
+		width:48%;
+	}
+	.ben-content .box-left:nth-child(3n) ,
+	.ben-content .box-left:nth-child(3n + 1){
+		margin-right:2% !important;
+	}
+	.slide-product {
+		width:100% !important;
+		float:left !important;
+		margin-right:10px !important;
+	}
+}
+@media screen and (max-width:525px){
+	.right-content .cate-ben-item {
+		width:48%;
+		margin-right:2% !important;
+	}
+	.main-slider-content {
+		width: 350px;
+	}
+}
+@media screen and (max-width:480px){
+	.ben-content .box-left ,
+	.top-ben-content .top-pro ,
+	.box-01 ,
+	.box-02 ,
+	.video
+	{
+		width:100% !important;
+		border-right: none;
+	}
+	.right-content .cate-ben-item {
+		width:100%;
+		margin-right:0% !important;
+	}
+	.right-content .cate-ben-item ,
+	.right-content .cate-ben-item .ben-img-item{
+		height:auto;
+	}
+	.item-news figure  {
+		margin-bottom:10px;
+	}
+	.item-news figure ,
+	.item-news figure img {
+		width:100% !important;
+	}
+	.product-image , .slide-product{
+   	 display: none !important;
+	}
+}
